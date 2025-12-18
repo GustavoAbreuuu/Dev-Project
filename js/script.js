@@ -24,7 +24,7 @@ function openSidebar() {
 
 function closeSidebar() {
     navbar.classList.remove('show')
-    openButton.setAttribute('arial-expanded', 'false')
+    openButton.setAttribute('aria-expanded', 'false')
     navbar.setAttribute('inert', '')
 }
 
