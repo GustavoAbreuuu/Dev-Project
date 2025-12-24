@@ -1,0 +1,35 @@
+:root {
+    --page-bg: #0B090D;
+    --text-color: #f0f0f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    color: var(--text-color);
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100dvh;
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: var(--page-bg) linear-gradient(to bottom, #1D0738ff, #1D073800) fixed;
+}
+
+section {
+    margin: 0 3em;
+    padding: 3em 0;
+}
+
+nav a:hover {
+    text-shadow: 0 0 10px var(--text-color);
+}
