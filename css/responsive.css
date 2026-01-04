@@ -42,9 +42,28 @@
         margin-top: 5em;
     }
 
+    .header-nav li {
+        width: 100%;
+    }
+
     .header-nav a {
+        display: block;
         width: 100%;
         padding: 1em 1em;
+        text-align: center;
+    }
+
+    .intro h1 {
+        font-size: 3rem;
+        padding-top: 4rem;
+    }
+
+    .intro h2 {
+        font-size: 2.3rem;  
+    }
+
+    .poem {
+        font-size: 1.6em;
     }
 }
 
@@ -65,5 +84,19 @@
         margin-top: 0;
         gap: 2rem;
         justify-content: center;
+    }
+
+    .intro h1 {
+        font-size: 3rem;
+    }
+
+     .intro h2 {
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h1 {
+        margin-bottom: 3rem;
     }
 }
