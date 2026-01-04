@@ -28,7 +28,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 2rem;
+    margin-bottom: 2.8rem;
     color: var(--text-color);
 }
 
@@ -37,11 +37,11 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
 }
 
 p {
@@ -52,10 +52,17 @@ p {
 
 
 section {
-    margin: 0 3em;
-    padding: 3em 0;
+    margin: 0 2rem;
+    margin-bottom: 10rem;
 }
 
 nav a:hover {
     text-shadow: 0 0 10px var(--text-color);
+}
+
+.btn {
+    display: inline-block;
+    padding: 1.6rem 3.6rem;
+    border-radius: 16rem;
+    background: var(--button-color);
 }
